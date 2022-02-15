@@ -23,5 +23,9 @@ const lengthOfLongestSubstring = (s) => {
 };
 
 const string1 = "abcabcbb";
+const string2 = "bbbbb"
+const string3 = "pwwkew";
 
-console.log(`lengthOfLongestSubstring ${string1}`,lengthOfLongestSubstring(string1))
+console.log(`lengthOfLongestSubstring ${string1}`,lengthOfLongestSubstring(string1));
+console.log(`lengthOfLongestSubstring ${string2}`,lengthOfLongestSubstring(string2));
+console.log(`lengthOfLongestSubstring ${string3}`,lengthOfLongestSubstring(string3));
