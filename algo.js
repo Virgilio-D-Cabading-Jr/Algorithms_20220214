@@ -12,7 +12,7 @@ const lengthOfLongestSubstring = (s) => {
                 longestLength = substringWithNoRepeat.length;
             }
         } else {
-            substringWithNoRepeat = "";
+            substringWithNoRepeat = substringWithNoRepeat.slice(substringWithNoRepeat.indexOf(s[x])+1)+s[x];
         }
     }
     return longestLength;
