@@ -25,3 +25,7 @@ const string3 = "pwwkew";
 console.log(`lengthOfLongestSubstring ${string1}`,lengthOfLongestSubstring(string1));
 console.log(`lengthOfLongestSubstring ${string2}`,lengthOfLongestSubstring(string2));
 console.log(`lengthOfLongestSubstring ${string3}`,lengthOfLongestSubstring(string3));
+
+const myArray = ["dog", "cat", "Dog", "Cat"];
+myArray.sort();
+console.log(myArray);
