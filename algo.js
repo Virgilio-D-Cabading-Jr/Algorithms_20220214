@@ -5,6 +5,10 @@
 const lengthOfLongestSubstring = (s) => {
     let longestLength = 0;
 
+    for (let x=0; x<s.length; x++) {
+        console.log(s[x]);
+    }
+
     return longestLength;
 };
 
